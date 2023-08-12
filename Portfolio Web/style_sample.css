@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/contact.jpg');
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#maindiv{
+    width: 30vw;
+    height: 500px;
+    background-color: green;
+    display: inline-flex;
+}
+
+#imgdiv{
+    width: 50%;
+    height: 100%;
+    background: red;
+}
+
+#formdiv{
+    background-color: rgb(139, 137, 151);
+    width: 50%;
+    height: 100%;
+    
+}
