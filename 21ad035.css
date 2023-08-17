@@ -491,9 +491,13 @@ html {
 #acbody {
     min-width: 900px;
     margin: 0px;
-    background-color: rgb(173, 216, 230);
+    /* background-color: rgb(173, 216, 230); */
     /* background-color: rgb(27, 32, 52); */
     display: inline-flex;
+    background-image: url("images/falling-bg.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url(images/falling-bg-full.jpg); */
     /* background-position: center; */
     /* background-repeat: no-repeat; */
@@ -564,12 +568,20 @@ html {
     color: rgb(27, 32, 52);
     position:absolute;
     left: 300px;
+    border-radius: 20px;
+    width: 170px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #int{
+    border-radius: 20px;
+    width: 170px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
     color: rgb(27, 32, 52);
     position:absolute;
-    right: 320px;
+    right: 300px;
 }
 
 #box {
